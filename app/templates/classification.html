@@ -1,0 +1,3 @@
+{% extends "base.html" %}{% block content %}<section class="hero"><div><p class="eyebrow">AI PROOF OF CONCEPT</p><h1>Classification suggestion</h1></div></section><section class="panel"><h2>Input</h2><p>{{ description }}</p><h2>Suggestion</h2>
+{% if result.category %}<p class="suggestion">{{ result.category }}</p><p>Confidence: {{ "%.1f"|format(result.confidence*100) }}%</p>{% else %}<p>{{ result.message }}</p>{% endif %}
+<p class="muted">{{ result.message }}</p><a class="button" href="{{ url_for('main.index') }}">Back to dashboard</a></section>{% endblock %}

@@ -1,0 +1,20 @@
+Rows: 5001
+Train: 3750
+Test: 1251
+Accuracy: 1.0000
+
+                       precision    recall  f1-score   support
+
+       Access Request       1.00      1.00      1.00       183
+    Application Error       1.00      1.00      1.00       173
+             Hardware       1.00      1.00      1.00       179
+              Network       1.00      1.00      1.00       175
+                Other       1.00      1.00      1.00       193
+       Password Reset       1.00      1.00      1.00       169
+Software Installation       1.00      1.00      1.00       179
+
+             accuracy                           1.00      1251
+            macro avg       1.00      1.00      1.00      1251
+         weighted avg       1.00      1.00      1.00      1251
+
+Synthetic-data limitation: results do not establish real-world performance.

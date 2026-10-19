@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Service Desk Analytics</title><link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"></head>
+<body><header class="topbar"><div><strong>Service Desk</strong><span class="muted"> · SLA Analytics</span></div>
+<nav><a href="{{ url_for('main.index') }}">Dashboard</a><a href="{{ url_for('main.new_ticket') }}">New ticket</a><a href="/#classifier">AI demo</a></nav></header>
+<main class="container">{% with messages=get_flashed_messages(with_categories=true) %}{% for category,message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}{% endwith %}
+{% block content %}{% endblock %}</main><footer>Portfolio prototype · Synthetic data · Not for production use</footer></body></html>
