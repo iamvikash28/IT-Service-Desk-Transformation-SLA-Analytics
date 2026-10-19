@@ -216,11 +216,11 @@ The included tests cover selected Python KPI helper functions; they do not const
 
 ## Dashboard
 
-![Page 1 — Overview](power-bi/01_Page.png)
+![Page 1 — Overview](<Power Bi/01_Page.png>)
 
-![Page 2 — Backlog Analysis](power-bi/02_Page.png)
+![Page 2 — Backlog Analysis](<Power Bi/02_Page.png>)
 
-![Page 3 — SLA and Improvement](power-bi/03_Page.png)
+![Page 3 — SLA and Improvement](<Power Bi/03_Page.png>)
 
 ## Known Gaps and Next Steps
 
